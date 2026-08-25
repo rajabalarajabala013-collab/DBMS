@@ -1,7 +1,3 @@
-# Experiment 3
-
-## Code
-```
 -- Create table and insert sample data
 CREATE TABLE students (
     student_id SERIAL PRIMARY KEY,
@@ -29,9 +25,3 @@ SELECT * FROM student_view;
 
 -- Create an index
 CREATE INDEX idx_student_email ON students (student_email);
-```
-
-## Expected Output / Result
-View created for the student table; DML operations verified through the view; index created and verified.
-
----
